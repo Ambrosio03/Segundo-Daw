@@ -1,0 +1,21 @@
+JavaScript: Es un lenguaje de programacion o un mecanismo con el que podemos decirle a nuestro navegador
+que tareas realizar, en que orden y cuantas vecces.
+
+- LENGUAJE DE PROGRAMACION DEL LADO CLIENTE: JS es un lenguaje de programacion que se ejecuta en el navegador 
+    web del cliente.(Maquina usuario).Los desarrolladores web agregan scripts que se ejecutan en el navegador del 
+    del usuario.
+
+- INTERPRETADO, NO COMPILADO: El codigo de JS se ejecuta directamente en el navegador sin necesidad de una etapa de
+    compilacoin previa. El navegador interpretta y ejecuta el código linea a linea
+
+- IMPERATIVO Y ESTRUCTURADO: Es un lenguaje de pregramacion imperativo, es decir se centra en la descripción de los 
+    pasos y las acciones que debe realizar el programa. Tambien se organiza el codigo en bloques lógicos, como funciones
+    y bucles
+
+- OBJETUAL, CON TIPICACION DEBIL Y DINAMICA: Tiene mucha flexibilidad en la asignacion de tipos de datps a las variables.
+
+- ORIENTADO A OBJETOS Y BASADO EN PROTOTIPOS: JS en vez de utilizar clases para definir objetos JS se basa en prototipos. Es 
+decir los objetos pueden eredar propiedades y metodos de otros objetos.
+
+
+hjhfa
