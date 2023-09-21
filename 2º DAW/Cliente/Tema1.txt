@@ -18,4 +18,4 @@ que tareas realizar, en que orden y cuantas vecces.
 decir los objetos pueden eredar propiedades y metodos de otros objetos.
 
 
-hjhfa
+Hola 
