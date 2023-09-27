@@ -19,9 +19,9 @@ const sumaArrays = (arr1, arr2) => {
     return resultado;
   };
   
-  // Ejemplo de uso:
+  
   const array1 = [1, 2, 3];
   const array2 = [4, 5, 6];
   const resultado = sumaArrays(array1, array2);
-  console.log(resultado); // Esto imprimirá [5, 7, 9]
+  console.log(resultado); 
   
