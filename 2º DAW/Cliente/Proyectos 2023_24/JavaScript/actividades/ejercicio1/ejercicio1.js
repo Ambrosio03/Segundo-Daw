@@ -6,17 +6,18 @@ correspondientes de arr1 y arr2 .
  */
 
 const sumaArrays = (arr1, arr2) => {
+    const resultado = [];
     if (arr1.length !== arr2.length) {
       resultado = "error";
-    }
-  
-    const resultado = [];
+    }else{
+      for (let i = 0; i < arr1.length; i++) {
+        resultado.push(arr1[i] + arr2[i]);
+      }
     
-    for (let i = 0; i < arr1.length; i++) {
-      resultado.push(arr1[i] + arr2[i]);
+      return resultado;
     }
-  
-    return resultado;
+    
+    
   };
   
   

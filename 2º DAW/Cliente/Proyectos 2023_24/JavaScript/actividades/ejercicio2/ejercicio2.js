@@ -4,11 +4,7 @@
 eliminar los elementos duplicados y devolver un nuevo array con elementos únicos, manteniendo
 el orden original
  */
-const eliminarDuplicados = (arr) => {
-    return arr.filter((valor, indice, array) => {
-      return array.indexOf(valor) === indice;
-    });
-  };
+const eliminarDuplicados = (arr) =>  arr.filter((valor, indice, array) => array.indexOf(valor) === indice);
   
   
   const arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
