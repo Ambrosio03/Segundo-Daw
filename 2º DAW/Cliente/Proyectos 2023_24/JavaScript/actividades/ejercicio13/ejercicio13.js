@@ -1,29 +1,24 @@
 /**
  * @author: Ambrosio Iglesias Prieto
- * @description:Escribe una función llamada dividirFragmento que tome un array arr y un número entero
-tamano . La función debe dividir el array en fragmentos de tamaño tamano y devolver un nuevo
-array con los Fragmentos.
+ * @description:Define una función llamada extraerPropiedades que tome un objeto obj y un array de
+propiedades . La función debe devolver un nuevo objeto que contenga solo las propiedades
+especificadas en el array. Si una propiedad no existe en el objeto original, debe ser omitida en
+el nuevo objeto.
  */
-const dividirFragmento = (arr, tamano) => {
-  
-  if (tamano <= 0 || arr.length === 0) {
-    return [];
-  }
 
-  
-  const fragmentos = Math.ceil(arr.length / tamano);
-
-  
-  const resultado = [];
-  for (let i = 0; i < fragmentos; i++) {
-    const inicio = i * tamano;
-    const fin = inicio + tamano;
-    resultado.push(arr.slice(inicio, fin));
-  }
-
-  return resultado;
-};
+function extraerPropiedades(obj, propiedades) {
+  let nuevoObjeto = {};
+  propiedades.forEach(prop => {
+      if(obj.hasOwnProperty(prop)) {
+          nuevoObjeto[prop] = obj[prop];
+      }
+  });
+  return nuevoObjeto;
+}
 
 
-const miArray = [1, 2, 3, 4, 5, 6, 7];
+let objeto1 = {a: 1, b: 2};
 
+let arr = [a,b];
+
+let extraer = extraerPropiedades(objeto1,arr);
