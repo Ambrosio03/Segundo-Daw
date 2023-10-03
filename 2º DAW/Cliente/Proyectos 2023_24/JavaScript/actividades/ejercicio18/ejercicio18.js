@@ -1,29 +1,19 @@
 /**
  * @author: Ambrosio Iglesias Prieto
- * @description:Escribe una función llamada dividirFragmento que tome un array arr y un número entero
-tamano . La función debe dividir el array en fragmentos de tamaño tamano y devolver un nuevo
-array con los Fragmentos.
+ * @description:Escribe una función llamada combinarArrays que pase como parámetro "creciente" o
+"decreciente", junto con un número indeterminado de arrays con valores numéricos.
+Seguidamente me devolverá un array con todos los elementos que conformen los arrays
+ordenado creciente u ordenado decreciente según indique en el parámetro. Si no indico nada
+se hará de forma creciente
  */
-const dividirFragmento = (arr, tamano) => {
-  
-  if (tamano <= 0 || arr.length === 0) {
-    return [];
+
+const combinarArrays = (orden = 'creciente', ...arrays) => {
+  let combinado = [].concat(...arrays);
+  if (orden === 'decreciente') {
+    return combinado.sort((a, b) => b - a);
+  } else {
+    return combinado.sort((a, b) => a - b);
   }
-
-  
-  const fragmentos = Math.ceil(arr.length / tamano);
-
-  
-  const resultado = [];
-  for (let i = 0; i < fragmentos; i++) {
-    const inicio = i * tamano;
-    const fin = inicio + tamano;
-    resultado.push(arr.slice(inicio, fin));
-  }
-
-  return resultado;
 };
 
-
-const miArray = [1, 2, 3, 4, 5, 6, 7];
 
