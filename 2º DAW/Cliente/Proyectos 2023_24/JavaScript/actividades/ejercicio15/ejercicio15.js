@@ -1,29 +1,11 @@
 /**
  * @author: Ambrosio Iglesias Prieto
- * @description:Escribe una función llamada dividirFragmento que tome un array arr y un número entero
-tamano . La función debe dividir el array en fragmentos de tamaño tamano y devolver un nuevo
-array con los Fragmentos.
+ * @description:Define una función llamada invertirCadena que tome una cadena cadena y devuelva una
+nueva cadena con los caracteres en orden inverso.
+
  */
-const dividirFragmento = (arr, tamano) => {
-  
-  if (tamano <= 0 || arr.length === 0) {
-    return [];
-  }
-
-  
-  const fragmentos = Math.ceil(arr.length / tamano);
-
-  
-  const resultado = [];
-  for (let i = 0; i < fragmentos; i++) {
-    const inicio = i * tamano;
-    const fin = inicio + tamano;
-    resultado.push(arr.slice(inicio, fin));
-  }
-
-  return resultado;
-};
+const invertirCadena = cadena => { return cadena.split('').reverse().join('')};
 
 
-const miArray = [1, 2, 3, 4, 5, 6, 7];
-
+let invertida = invertirCadena("hola");
+console.log(invertida);

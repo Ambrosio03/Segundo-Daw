@@ -9,6 +9,6 @@ const mapearNumeros = (arr,funcion) => arr.map(funcion);
 
 let numeros = [1, 2, 3, 4, 5];
 let cuadrados = mapearNumeros(numeros, numero => numero * numero);
-console.log(cuadrados); // Imprime: [1, 4, 9, 16, 25]
+console.log(cuadrados);
 
 

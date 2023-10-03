@@ -1,29 +1,16 @@
 /**
  * @author: Ambrosio Iglesias Prieto
- * @description:Escribe una función llamada dividirFragmento que tome un array arr y un número entero
-tamano . La función debe dividir el array en fragmentos de tamaño tamano y devolver un nuevo
-array con los Fragmentos.
+ * @description:Escribe una función llamada rangoNumeros que tome dos números inicio y fin . La
+función debe devolver un array que contenga todos los números en el rango desde inicio
+hasta fin , incluyendo ambos números
  */
-const dividirFragmento = (arr, tamano) => {
-  
-  if (tamano <= 0 || arr.length === 0) {
-    return [];
+const rangoNumeros = (inicio, fin) => {
+  let array = [];
+  for(let i = inicio; i <= fin; i++){
+      array.push(i);
   }
-
-  
-  const fragmentos = Math.ceil(arr.length / tamano);
-
-  
-  const resultado = [];
-  for (let i = 0; i < fragmentos; i++) {
-    const inicio = i * tamano;
-    const fin = inicio + tamano;
-    resultado.push(arr.slice(inicio, fin));
-  }
-
-  return resultado;
+  return array;
 };
 
-
-const miArray = [1, 2, 3, 4, 5, 6, 7];
-
+let rangos = rangoNumeros(1,5);
+console.log(rangos);
