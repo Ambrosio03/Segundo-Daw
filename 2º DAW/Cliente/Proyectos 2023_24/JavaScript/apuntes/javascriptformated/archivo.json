@@ -1,0 +1,962 @@
+[
+    {
+    " identificación " :  1 ,
+    " nombre " :  " Juan " ,
+    " apellido " :  " Doe " ,
+    " correo electrónico " :  " johndoe@example.com " ,
+    " fecha de nacimiento " :  " 1973-01-22 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 1a0eed01-9430-4d68-901f-c0d4c1c3bf22 " ,
+    " nombre de usuario " :  " johndoe " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-10T10:03:20.022Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 123 calle principal " ,
+    " suite " :  " Apto. 4 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.johndoe.com " ,
+    " empresa " :  {
+    " nombre " :  " Compañía ABC " ,
+    " catchPhrase " :  " Soluciones innovadoras para todas sus necesidades " ,
+    " bs " :  " Comercialización "
+    }
+    } ,
+    {
+    " identificación " :  2 ,
+    " nombre " :  " Jane " ,
+    " apellido " :  " Smith " ,
+    " correo electrónico " :  " janesmith@example.com " ,
+    " fecha de nacimiento " :  " 1983-02-22 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 2a0eed02-9430-4d68-901f-c0d4c1c3bf22 " ,
+    " nombre de usuario " :  " janesmith " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-06-10T12:45:20.022Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 Oak Street " ,
+    " suite " :  " Suite 200 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.3456 " ,
+    " lng " :  " -71,6789 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.janesmith.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación XYZ " ,
+    " catchPhrase " :  " Liderando el camino en innovación " ,
+    " bs " :  " Finanzas "
+    }
+    } ,
+    {
+    " identificación " :  3 ,
+    " nombre " :  " Bob " ,
+    " apellido " :  " Johnson " ,
+    " correo electrónico " :  " bobjohnson@example.com " ,
+    " fecha de nacimiento " :  " 1974-11-12 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 3a0eed11-9430-4d68-901f-c0d4c1c3bf12 " ,
+    " nombre de usuario " :  " bobjohnson " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-06-10T12:45:20.022Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 Elm Street " ,
+    " suite " :  " Apto. 100 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71,1234 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.bobjohnson.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación Acme " ,
+    " catchPhrase " :  " Su socio de confianza " ,
+    " bs " :  " Fabricación "
+    }
+    } ,
+    {
+    " identificación " :  4 ,
+    " nombre " :  " Emily " ,
+    " apellido " :  " Davis " ,
+    " correo electrónico " :  " emilydavis@example.com " ,
+    " fecha de nacimiento " :  " 1974-11-30 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 4a0eed11-9430-4d68-901f-c0d4c1c3bf30 " ,
+    " nombre de usuario " :  " emilydavis " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-07-10T11:21:20.033Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 321 calle Arce " ,
+    " suite " :  " Apto. 50 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-3456 " ,
+    " sitio web " :  " www.emilydavis.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación GHI " ,
+    " catchPhrase " :  " Su éxito es nuestra prioridad " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  5 ,
+    " nombre " :  " William " ,
+    " apellido " :  " Marrón " ,
+    " correo electrónico " :  " williambrown@example.com " ,
+    " fecha de nacimiento " :  " 1974-11-22 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 5a0eed11-9430-4d68-901f-c0d4c1c3bf22 " ,
+    " nombre de usuario " :  " williambrown " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-02-10T10:38:03.030Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 567 calle pino " ,
+    " suite " :  " Apto. 2 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.6789 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-6789 " ,
+    " sitio web " :  " www.williambrown.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias JKL " ,
+    " frase clave " :  " Productos de calidad para un mundo mejor " ,
+    " bs " :  " Ingeniería "
+    }
+    } ,
+    {
+    " identificación " :  6 ,
+    " nombre " :  " Laura " ,
+    " apellido " :  " Wilson " ,
+    " correo electrónico " :  " laurawilson@example.com " ,
+    " fecha de nacimiento " :  " 1984-12-14 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 6a0eed12-9430-4d68-901f-c0d4c1c3bf14 " ,
+    " nombre de usuario " :  " laurawilson " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-01-10T09:03:03.030Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 calle Arce " ,
+    " suite " :  " Apto. 10 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.3456 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.laurawilson.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación LMN " ,
+    " catchPhrase " :  " Soluciones innovadoras para un futuro mejor " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  7 ,
+    " nombre " :  " Miguel " ,
+    " apellido " :  " García " ,
+    " correo electrónico " :  " michaelgarcia@example.com " ,
+    " fecha de nacimiento " :  " 1984-12-14 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 7a0eed12-9430-4d68-901f-c0d4c1c3bf14 " ,
+    " nombre de usuario " :  " michaelgarcía " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-10T09:03:03.030Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 234 Elm Street " ,
+    " suite " :  " Apto. 20 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71,6789 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.michaelgarcia.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas NOP " ,
+    " catchPhrase " :  " Su socio en el éxito " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  8 ,
+    " nombre " :  " Stephanie " ,
+    " apellido " :  " Lee " ,
+    " correo electrónico " :  " stephanielee@example.com " ,
+    " fecha de nacimiento " :  " 1983-02-13 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 8a0eed02-9430-4d68-901f-c0d4c1c3bf13 " ,
+    " nombre de usuario " :  " stephanielee " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-10T09:03:34.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 345 Oak Street " ,
+    " suite " :  " Suite 500 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,1234 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-3456 " ,
+    " sitio web " :  " www.stephanielee.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias PQR " ,
+    " catchPhrase " :  " Soluciones innovadoras para sus necesidades " ,
+    " bs " :  " Fabricación "
+    }
+    } ,
+    {
+    " identificación " :  9 ,
+    " nombre " :  " David " ,
+    " apellido " :  " Hernandez " ,
+    " correo electrónico " :  " davidhernandez@example.com " ,
+    " fecha de nacimiento " :  " 2000-11-10 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 9a0eed11-9430-4d68-901f-c0d4c1c3bf10 " ,
+    " nombre de usuario " :  " davidhernández " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-10T09:02:34.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle pino " ,
+    " suite " :  " Apto. 100 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-6789 " ,
+    " sitio web " :  " www.davidhernandez.com " ,
+    " empresa " :  {
+    " nombre " :  " RST Corporación " ,
+    " catchPhrase " :  " Soluciones innovadoras para su negocio " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  10 ,
+    " nombre " :  " Jessica " ,
+    " apellido " :  " Pérez " ,
+    " correo electrónico " :  " jessicaperez@example.com " ,
+    " fecha de nacimiento " :  " 1988-11-13 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 10aeed11-9430-4d68-901f-c0d4c1c3bf13 " ,
+    " nombre de usuario " :  " jessicaperez " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-09T09:01:33.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 Oak Street " ,
+    " suite " :  " Suite 300 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.jessicaperez.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación UVW " ,
+    " catchPhrase " :  " Soluciones innovadoras para un mundo mejor " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  11 ,
+    " nombre " :  " Marca " ,
+    " apellido " :  " Thompson " ,
+    " correo electrónico " :  " markthompson@example.com " ,
+    " fecha de nacimiento " :  " 1999-01-17 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 11aeed01-9430-4d68-901f-c0d4c1c3bf17 " ,
+    " nombre de usuario " :  " markthompson " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-08T09:00:33.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Elm 123 " ,
+    " suite " :  " Apto. 1 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.markthompson.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas LMN " ,
+    " catchPhrase " :  " Su socio para el éxito " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  12 ,
+    " nombre " :  " Lisa " ,
+    " apellido " :  " Rodríguez " ,
+    " correo electrónico " :  " lisarodriguez@example.com " ,
+    " fecha de nacimiento " :  " 1999-01-17 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 12aeed01-9430-4d68-901f-c0d4c1c3bf17 " ,
+    " nombre de usuario " :  " lisarodriguez " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2023-01-09T05:51:59.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle Arce " ,
+    " suite " :  " Apto. 30 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.3456 " ,
+    " lng " :  " -71,6789 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.lisarodriguez.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación NOP " ,
+    " catchPhrase " :  " Su éxito es nuestra prioridad " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  13 ,
+    " nombre " :  " Julia " ,
+    " apellido " :  " Kim " ,
+    " correo electrónico " :  " juliakim@example.com " ,
+    " fecha de nacimiento " :  " 2002-11-11 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 13aeed11-9430-4d68-901f-c0d4c1c3bf11 " ,
+    " nombre de usuario " :  " juliakim " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2017-08-09T05:51:59.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Cereza 123 " ,
+    " suite " :  " Apto. 100 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.juliakim.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación ABC " ,
+    " catchPhrase " :  " Su socio de confianza " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  14 ,
+    " nombre " :  " Max " ,
+    " apellido " :  " Marrón " ,
+    " correo electrónico " :  " maxbrown@example.com " ,
+    " fecha de nacimiento " :  " 2007-10-07 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 14aeed10-9430-4d68-901f-c0d4c1c3bf07 " ,
+    " nombre de usuario " :  " maxbrown " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-06-13T11:38:33.010Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 Oak Street " ,
+    " suite " :  " Apto. 200 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.3456 " ,
+    " lng " :  " -71,6789 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.maxbrown.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas XYZ " ,
+    " catchPhrase " :  " Soluciones innovadoras para sus necesidades " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  15 ,
+    " nombre " :  " Oliver " ,
+    " apellido " :  " Martínez " ,
+    " correo electrónico " :  " olivermartinez@example.com " ,
+    " fecha de nacimiento " :  " 2001-11-03 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 15aeed01-9430-4d68-901f-c0d4c1c3bf03 " ,
+    " nombre de usuario " :  " olivermartinez " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-06-13T11:38:33.010Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 Elm Street " ,
+    " suite " :  " Apto. 30 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.olivermartinez.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación PQR " ,
+    " catchPhrase " :  " Soluciones innovadoras para su éxito " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  16 ,
+    " nombre " :  " Sophie " ,
+    " apellido " :  " Lee " ,
+    " correo electrónico " :  " sophielee@example.com " ,
+    " fecha de nacimiento " :  " 1982-04-12 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 16beed04-1433-3ds8-901f-d0d4c1c3bac0 " ,
+    " nombre de usuario " :  " sophielee " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-08-11T11:38:33.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 321 calle pino " ,
+    " suite " :  " Apto. 40 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-3456 " ,
+    " sitio web " :  " www.sophielee.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas GHI " ,
+    " catchPhrase " :  " Soluciones innovadoras para un futuro mejor " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  17 ,
+    " nombre " :  " Mía " ,
+    " apellido " :  " Nguyen " ,
+    " correo electrónico " :  " mianuguyen@ejemplo.com " ,
+    " fecha de nacimiento " :  " 1980-05-22 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 17beed05-9400-3ds8-901f-d0d4c1c3bfb0 " ,
+    " nombre de usuario " :  " mianuguyen " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-08-11T10:33:33.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 567 Oak Street " ,
+    " suite " :  " Apto. 50 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.6789 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.mianuguyen.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas JKL " ,
+    " catchPhrase " :  " Soluciones innovadoras para sus necesidades " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  18 ,
+    " nombre " :  " Lucas " ,
+    " apellido " :  " Kim " ,
+    " correo electrónico " :  " lucaskim@example.com " ,
+    " fecha de nacimiento " :  " 1980-05-22 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 18beed16-9400-4d68-901f-d0d4c1c3bfb0 " ,
+    " nombre de usuario " :  " lucaskim " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-02-01T10:03:33.330Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 calle cereza " ,
+    " suite " :  " Apto. 60 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.3456 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.lucaskim.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias LMN " ,
+    " catchPhrase " :  " Soluciones innovadoras para su éxito " ,
+    " bs " :  " Fabricación "
+    }
+    } ,
+    {
+    " identificación " :  19 ,
+    " nombre " :  " Isabella " ,
+    " apellido " :  " Hernandez " ,
+    " correo electrónico " :  " isabellahernandez@example.com " ,
+    " fecha de nacimiento " :  " 1980-09-26 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 190eed16-9400-4d68-901f-d0d4c1c3bf00 " ,
+    " nombre de usuario " :  " isabelhernandez " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-02-01T10:01:45.010Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Pino 123 " ,
+    " suite " :  " Apto. 70 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.isabellahernandez.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias NOP " ,
+    " catchPhrase " :  " Soluciones innovadoras para su negocio " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  20 ,
+    " nombre " :  " Ethan " ,
+    " apellido " :  " Kim " ,
+    " correo electrónico " :  " ethankim@example.com " ,
+    " fecha de nacimiento " :  " 1983-03-06 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 20aeed13-3420-2f38-111f-c0d4c1c3bf01 " ,
+    " nombre de usuario " :  " ethankim " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-02-01T11:01:44.010Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle Arce " ,
+    " suite " :  " Apto. 80 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.ethankim.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas PQR " ,
+    " catchPhrase " :  " Soluciones innovadoras para un mundo mejor " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  21 ,
+    " nombre " :  " Ava " ,
+    " apellido " :  " Patel " ,
+    " correo electrónico " :  " avapatel@example.com " ,
+    " fecha de nacimiento " :  " 1983-08-01 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 21aeed01-3221-2f48-111f-c0d4c1c3bf20 " ,
+    " nombre de usuario " :  " avapatel " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-01-01T09:00:00.000Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 calle Arce " ,
+    " suite " :  " Apto. 90 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.avapatel.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas UVW " ,
+    " catchPhrase " :  " Soluciones innovadoras para sus necesidades " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  22 ,
+    " nombre " :  " William " ,
+    " apellido " :  " Kim " ,
+    " correo electrónico " :  " williamkim@example.com " ,
+    " fecha de nacimiento " :  " 1983-08-01 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 22aeed11-3420-2f38-111f-c0d4c1c3bf00 " ,
+    " nombre de usuario " :  " williamkim " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-03-25T09:38:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Elm 123 " ,
+    " suite " :  " Apto. 100 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.williamkim.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación JKL " ,
+    " catchPhrase " :  " Soluciones innovadoras para su negocio " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  23 ,
+    " nombre " :  " Ella " ,
+    " apellido " :  " Lee " ,
+    " correo electrónico " :  " ellalee@example.com " ,
+    " fecha de nacimiento " :  " 1983-08-01 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 23aeed11-9420-4f68-111f-c0d4c1c3bf00 " ,
+    " nombre de usuario " :  " ellalee " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-07-05T09:12:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle pino " ,
+    " suite " :  " Apto. 110 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.ellalee.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias NOP " ,
+    " catchPhrase " :  " Soluciones innovadoras para su éxito " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  24 ,
+    " nombre " :  " Noé " ,
+    " apellido " :  " Martín " ,
+    " correo electrónico " :  " noahmartin@example.com " ,
+    " fecha de nacimiento " :  " 1983-09-11 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 24aeed11-9460-4d78-901f-c0d4c1c3bf00 " ,
+    " nombre de usuario " :  " noahmartin " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-01-01T09:02:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 Oak Street " ,
+    " suite " :  " Apto. 120 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.noahmartin.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas ABC " ,
+    " catchPhrase " :  " Soluciones innovadoras para un futuro mejor " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  25 ,
+    " nombre " :  " Emma " ,
+    " apellido " :  " García " ,
+    " correo electrónico " :  " emmagarcia@example.com " ,
+    " fecha de nacimiento " :  " 1983-09-11 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 25aeed09-9430-4d68-901f-c0d4c1c3bf11 " ,
+    " nombre de usuario " :  " emmagarcia " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-02-01T08:03:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 123 Oak Street " ,
+    " suite " :  " Apto. 130 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71.9012 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.emmagarcia.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación GHI " ,
+    " catchPhrase " :  " Soluciones innovadoras para sus necesidades " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  26 ,
+    " nombre " :  " Aiden " ,
+    " apellido " :  " Martínez " ,
+    " correo electrónico " :  " aidenmartinez@example.com " ,
+    " fecha de nacimiento " :  " 1983-09-11 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 26aeed09-9430-4d68-901f-c0d4c1c3bf11 " ,
+    " nombre de usuario " :  " aidenmartinez " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-02-01T08:03:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle cereza " ,
+    " suite " :  " Apto. 140 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-5678 " ,
+    " sitio web " :  " www.aidenmartinez.com " ,
+    " empresa " :  {
+    " nombre " :  " Industrias JKL " ,
+    " catchPhrase " :  " Soluciones innovadoras para un mundo mejor " ,
+    " bs " :  " Fabricación "
+    }
+    } ,
+    {
+    " identificación " :  27 ,
+    " nombre " :  " Chloe " ,
+    " apellido " :  " Nguyen " ,
+    " correo electrónico " :  " chloenguyen@ejemplo.com " ,
+    " fecha de nacimiento " :  " 1988-12-13 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 27aeed12-9430-4d68-901f-c0d4c1c3bf13 " ,
+    " nombre de usuario " :  " chloenguyen " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-01-03T09:03:02.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 789 calle Arce " ,
+    " suite " :  " Apto. 150 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.9012 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-9012 " ,
+    " sitio web " :  " www.chloenguyen.com " ,
+    " empresa " :  {
+    " nombre " :  " Empresas LMN " ,
+    " catchPhrase " :  " Soluciones innovadoras para su éxito " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  28 ,
+    " nombre " :  " Liam " ,
+    " apellido " :  " Marrón " ,
+    " correo electrónico " :  " liambrown@example.com " ,
+    " fecha de nacimiento " :  " 2002-01-25 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 28aeed01-9430-4d68-901f-c0d4c1c3bf25 " ,
+    " nombre de usuario " :  " stefankupidura " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2022-01-02T09:00:01.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Pino 123 " ,
+    " suite " :  " Apto. 160 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.liambrown.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación PQR " ,
+    " catchPhrase " :  " Soluciones innovadoras para su negocio " ,
+    " bs " :  " Consultoría "
+    }
+    } ,
+    {
+    " identificación " :  29 ,
+    " nombre " :  " Jazmín " ,
+    " apellido " :  " Marrón " ,
+    " correo electrónico " :  " jasminebrown@example.com " ,
+    " fecha de nacimiento " :  " 1990-11-19 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 29aeed11-9430-4d68-901f-c0d4c1c3bf19 " ,
+    " nombre de usuario " :  " jasminebrown " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-11-02T07:00:59.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " Calle Elm 124 " ,
+    " suite " :  " Apto. 110 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.1234 " ,
+    " lng " :  " -71,5678 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.jasminebrown.com " ,
+    " empresa " :  {
+    " nombre " :  " Tecnología A&B " ,
+    " catchPhrase " :  " Soluciones de TI innovadoras para su negocio " ,
+    " bs " :  " Tecnología "
+    }
+    } ,
+    {
+    " identificación " :  30 ,
+    " nombre " :  " Stefan " ,
+    " apellido " :  " Kupidura " ,
+    " correo electrónico " :  " stefankupidura@example.com " ,
+    " fecha de nacimiento " :  " 1978-12-25 " ,
+    " iniciar sesión " :  {
+    " uuid " :  " 30aeed12-9430-4d68-901f-c0d4c1c3bf25 " ,
+    " nombre de usuario " :  " stefankupidura " ,
+    " contraseña " :  " jsonplaceholder.org " ,
+    " md5 " :  " c1328472c5794a25723600f71c1b4586 " ,
+    " sha1 " :  " 35544a31cc19bd6520af116554873167117f4d94 " ,
+    " registrado " :  " 2021-12-01T07:51:59.390Z "
+    } ,
+    " dirección " :  {
+    " calle " :  " 456 calle cereza " ,
+    " suite " :  " Apto. 150 " ,
+    " ciudad " :  " Cualquier pueblo " ,
+    " código postal " :  " 12345-6789 " ,
+    " geo " :  {
+    " latitud " :  " 42.5678 " ,
+    " lng " :  " -71,2345 "
+    }
+    } ,
+    " teléfono " :  " (555) 555-1234 " ,
+    " sitio web " :  " www.stefankupidura.com " ,
+    " empresa " :  {
+    " nombre " :  " Corporación ABC " ,
+    " catchPhrase " :  " Soluciones de TI y software " ,
+    " bs " :  " Desarrollo "
+    }
+    }
+    ]
