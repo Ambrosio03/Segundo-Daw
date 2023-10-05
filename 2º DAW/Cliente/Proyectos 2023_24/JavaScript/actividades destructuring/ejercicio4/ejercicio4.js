@@ -14,7 +14,7 @@ const persona = {
     },
    };
    
-   if(persona.info.hasOwnProperty(apellidos)){
+   if(persona.info.hasOwnProperty('apellidos')){
     const {nombre : nombrePersona, apellidos : apellidosPersona} = persona.info;
    }else{
     const {nombre : nombrePersona} = persona.info;
