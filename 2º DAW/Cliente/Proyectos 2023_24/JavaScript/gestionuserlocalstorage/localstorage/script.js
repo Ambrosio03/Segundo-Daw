@@ -1,9 +1,10 @@
-// insertar elementos en el LocalStorage
+// // insertar elementos en el LocalStorage
 
-const usuario = {"name": "ambrosio", "email": "upchh@example.com"};
-localStorage.setItem("nombre", "Ambrosio");
-localStorage.setItem("user", JSON.stringify(ususario));
+// const usuario = {"name": "ambrosio", "email": "upchh@example.com"};
+// localStorage.setItem("nombre", "Ambrosio");
+// localStorage.setItem("user", JSON.stringify(ususario));
 
+const myName =[];
 /**
  * @description crear una pagina web que tenga la siguiente estructura : un header que ocupe todo el ancho de la pagina que tenga el el nombre de nuestro proyecto
  * , seguidamente tendremos dos secciones que parten la pagina en 2 partes justamente por la mita. la parte de la izquieda dispondremos de un formulario
@@ -18,3 +19,23 @@ localStorage.setItem("user", JSON.stringify(ususario));
  * 
  */
 
+
+function insertUsers(clave,structureData){
+    return localStorage.setItem(clave,JSON.stringify(structureData));
+}
+
+insertUsers("myUsers",usuarios);
+
+function loadStrct(clave){
+    JSON.parse(localStorage.getItem(clave));
+}
+
+ myName = loadStrct("myUsers");
+
+ // guardar en una estructura de datos el username y el password codificado de tos los usuarios de mi estructura 
+ // y de los usuarios que vaya a añadir sin repetir el username
+
+
+function saveUserPasssword(key, structUser) {
+    structUser.map{(user) =>console.log(user.login.username, btoas(user.login.password))};
+}
