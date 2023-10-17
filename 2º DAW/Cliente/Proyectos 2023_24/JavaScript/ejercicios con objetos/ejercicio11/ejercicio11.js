@@ -19,3 +19,4 @@ function fusionarObjetos(objeto1, objeto2) {
     objeto1[key] = objeto2[key];
     return objetoFusionado;
 }
+}
