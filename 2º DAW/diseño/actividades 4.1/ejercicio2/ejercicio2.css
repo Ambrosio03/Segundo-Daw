@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: red;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  span.destacado {
+    color: green;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: black;
+  }
+  
+  a {
+    color: purple;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  span.especial {
+    background-color: yellow;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  caption {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th.especial {
+    background-color: yellow;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
